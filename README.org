@@ -17,5 +17,37 @@ extract data points for a curve from a PNG
     $ curvestractor input.png
   #+end_src
 
+** Example
+
+   Running the command above on =input.png= in the repo:
+
+   [[file:input.png]]
+
+   yields
+
+   #+begin_src text
+     ...
+     142 100
+     143 101
+     143 100
+     146 103
+     147 103
+     147 102
+     148 104
+     148 103
+     149 104
+     152 105
+     153 105
+     154 106
+     155 107
+     156 107
+     157 108
+     159 109
+     161 110
+     162 111
+     164 112
+     ...
+   #+end_src
+
 * TODOs
   - make the color of the pixels to extract a flag
