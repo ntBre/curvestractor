@@ -1,0 +1,21 @@
+#+title: curvestractor
+
+extract data points for a curve from a PNG
+
+* Installation
+  Just use =go install.=
+
+  #+begin_src shell
+    $ go install github.com/ntBre/curvestractor
+  #+end_src
+
+* Usage
+  This command will extract all of the black pixels from =input.png= and print the
+  corresponding =x= and =y= coordinates to stdout.
+
+  #+begin_src shell
+    $ curvestractor input.png
+  #+end_src
+
+* TODOs
+  - make the color of the pixels to extract a flag
